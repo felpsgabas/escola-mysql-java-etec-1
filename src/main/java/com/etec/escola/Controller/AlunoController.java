@@ -12,9 +12,11 @@ import java.util.List;
 public class AlunoController {
 
     private final AlunoService alunoService;
+
     public AlunoController(AlunoService alunoService) {
         this.alunoService = alunoService;
     }
+
 
     @GetMapping
     public List<Aluno> listaDeAlunos(){
